@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1b2838;
+  color: #c7d5e0;
+}
+.navbar {
+  background-color: #171a21;
+  color: #c7d5e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  color: #66c0f4;
+}
+.links a {
+  color: #c7d5e0;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+}
+.links a:hover {
+  color: #66c0f4;
+}
+.herosession {
+  background-color: #1b2838;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+.herosession a {
+  background-color: #66c0f4;
+  color: black;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.herosession a:hover {
+  background-color: #1999ff;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.card {
+  background-color: #2a475e;
+  border: none;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card h3 {
+  color: #66c0f4;
+}
+.price {
+  color: #5cdb95;
+  font-weight: bold;
+}
+footer {
+  background-color: #171a21;
+  color: #8f98a0;
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+}
+.page-header {
+  background-color: #2a475e;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 40px 24px;
+  justify-content: center;
+}
+.about-box {
+  background-color: #2a475e;
+  padding: 24px;
+  min-width: 260px;
+  max-width: 460px;
+  border-radius: 6px;
+}
+.about-box h2 {
+  color: #66c0f4;
+}
+.about-box p {
+  font-size: 15px;
+  color: #c7d5e0;
+}
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.team-card {
+  background-color: #2a475e;
+  padding: 20px;
+  width: 190px;
+  text-align: center;
+  border-radius: 6px;
+}
+.team-card h4 {
+  color: #66c0f4;
+}
+.team-card p {
+  color: #8f98a0;
+}
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 40px 24px;
+  justify-content: center;
+}
+.order-form,
+.info-box {
+  background-color: #2a475e;
+  padding: 28px;
+  border-radius: 6px;
+}
+.order-form h2,
+.info-box h2 {
+  color: white;
+}
+.form-group label {
+  color: #c7d5e0;
+}
+select, input {
+  width: 100%;
+  padding: 10px;
+  background-color: #1b2838;
+  border: 1px solid #66c0f4;
+  color: white;
+}
+.submit-btn {
+  background-color: #66c0f4;
+  color: black;
+  padding: 12px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+.submit-btn:hover {
+  background-color: #1999ff;
+}
